@@ -36,6 +36,7 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 ARCH_ARM_HAVE_TLS_REGISTER := true
 ARCH_ARM_USE_NON_NEON_MEMCPY := true
+ARCH_ARM_HAVE_ARMV7A := true
 
 TARGET_USERIMAGES_USE_EXT4 := true
 
@@ -86,3 +87,4 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
 TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+#TARGET_PREBUILT_KERNEL := device/asus/grouper/kernel
